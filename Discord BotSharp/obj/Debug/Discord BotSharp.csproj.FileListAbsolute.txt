@@ -1,0 +1,202 @@
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csprojAssemblyReference.cache
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.g.cs
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/App.g.cs
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.cache
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.lref
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe.config
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.pdb
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Win32.Primitives.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.AppContext.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Console.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Globalization.Calendars.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.ZipFile.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.Primitives.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Http.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Sockets.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Algorithms.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Encoding.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Primitives.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.X509Certificates.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Xml.ReaderWriter.dll
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.xml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.baml
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.g.resources
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord_BotSharp.Properties.Resources.resources
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.GenerateResource.cache
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CoreCompileInputs.cache
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CopyComplete
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.exe
+C:/Users/Critzlez/source/repos/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe.config
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Win32.Primitives.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.AppContext.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Console.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Globalization.Calendars.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.ZipFile.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.Primitives.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Http.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Sockets.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Algorithms.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Encoding.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Primitives.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.X509Certificates.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Xml.ReaderWriter.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.xml
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.g.cs
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/App.g.cs
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.cache
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.lref
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.baml
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.g.resources
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord_BotSharp.Properties.Resources.resources
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.GenerateResource.cache
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CoreCompileInputs.cache
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CopyComplete
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.exe
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.pdb
+D:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csprojAssemblyReference.cache
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.PlatformServices.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.PlatformServices.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.dll
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.xml
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.pdb
+D:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe.config
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.exe
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord BotSharp.pdb
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.PlatformServices.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.PlatformServices.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Win32.Primitives.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.AppContext.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Console.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Globalization.Calendars.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.Compression.ZipFile.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.IO.FileSystem.Primitives.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Http.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Net.Sockets.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Algorithms.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Encoding.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.Primitives.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Security.Cryptography.X509Certificates.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Xml.ReaderWriter.dll
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Commands.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Core.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rest.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Rpc.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.Webhook.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Discord.Net.WebSocket.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.pdb
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.pdb
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Auth.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.pdb
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.Core.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.pdb
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Google.Apis.YouTube.v3.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/Newtonsoft.Json.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Collections.Immutable.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Diagnostics.DiagnosticSource.xml
+G:/Discord BotSharp/Discord BotSharp/bin/Debug/System.Interactive.Async.xml
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csprojAssemblyReference.cache
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.g.cs
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/App.g.cs
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.cache
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp_MarkupCompile.lref
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/MainWindow.baml
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.g.resources
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord_BotSharp.Properties.Resources.resources
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.GenerateResource.cache
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CoreCompileInputs.cache
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CopyComplete
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.exe
+G:/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.pdb
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csprojAssemblyReference.cache
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord_BotSharp.Properties.Resources.resources
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.GenerateResource.cache
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.csproj.CoreCompileInputs.cache
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.exe
+/run/media/HD2/Scripts/Discord BotSharp/Discord BotSharp/obj/Debug/Discord BotSharp.pdb
