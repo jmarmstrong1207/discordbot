@@ -149,7 +149,7 @@ namespace Discord_BotSharp
         {
             await Context.Message.DeleteAsync();
 
-            MemeGenerator drake = new MemeGenerator(Environment.CurrentDirectory + "/drake.jpg", Context.Channel.Id, Context.Guild, image, image2);
+            MemeGenerator drake = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/drake.jpg", Context.Channel.Id, Context.Guild, image, image2);
             try
             {
                 await Context.Channel.SendFileAsync(drake.Generate2ImageMeme(
@@ -170,7 +170,7 @@ namespace Discord_BotSharp
         {
             await Context.Message.DeleteAsync();
 
-            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/memeImages/sources/upgrade.jpg",
+            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/upgrade.jpg",
                 Context.Channel.Id, Context.Guild, image, image2);
 
             string memeToSend = upgrade.Generate2ImageMeme(
@@ -187,7 +187,7 @@ namespace Discord_BotSharp
         {
             await Context.Message.DeleteAsync();
 
-            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/memeImages/sources/upgrade2.jpg",
+            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/upgrade2.jpg",
                 Context.Channel.Id, Context.Guild, image, image2, image3);
 
             string memeToSend = upgrade.Generate3ImageMeme(
