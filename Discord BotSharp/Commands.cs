@@ -24,7 +24,6 @@ namespace Discord_BotSharp
             eb.AddField(",8ball", "Answers your essential questions");
             eb.AddField(",knock", "Spook someone with this in a voice channel");
             eb.AddField(",roll", "Roll from 0 to 100 or from roll #");
-            eb.AddField("Supported Sites", "https://rg3.github.io/youtube-dl/supportedsites.html");
             eb.AddField(",upgrade *image-url image2-url*", "Lets you generate a meme with, using the *upgrade; " +
                 "go back* meme template (images respective)");
             eb.AddField(",upgrade *image-url image2-url image3-url*", "Lets you generate a meme with, " +
