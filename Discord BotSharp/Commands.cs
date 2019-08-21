@@ -22,7 +22,6 @@ namespace Discord_BotSharp
             eb.WithTitle("Help Commands");
             eb.AddField(",ping", "Replies with pong. Tests for lag");
             eb.AddField(",8ball", "Answers your essential questions");
-            eb.AddField(",insult", "Insult someone or yourself");
             eb.AddField(",knock", "Spook someone with this in a voice channel");
             eb.AddField(",roll", "Roll from 0 to 100 or from roll #");
             eb.AddField("Supported Sites", "https://rg3.github.io/youtube-dl/supportedsites.html");
