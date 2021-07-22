@@ -138,7 +138,7 @@ namespace Discord_BotSharp
             }
             else
             {
-                await Context.User.SendMessageAsync("You aren't Critzlez you dumb libtard");
+                await Context.User.SendMessageAsync("You aren't James");
             }
         }
 
