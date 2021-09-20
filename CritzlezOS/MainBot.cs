@@ -23,9 +23,9 @@ namespace CritzlezOS
         private CommandService _commands;
         private IServiceProvider _services;
 
-        public MainBot(string id)
+        public MainBot()
         {
-            token = id;
+            token = System.IO.File.ReadAllText("token.txt");
         }
 
         private async Task HandleCommandAsync(SocketMessage messageParam)
@@ -102,7 +102,6 @@ namespace CritzlezOS
 
     public struct BotInherited
     {
-		// replace 123456 with your bot token
-        public static MainBot bot = new MainBot("ODg5Mjc4OTQ4NDk0NzAwNTQ2.YUe7jw.tVh-K_PDdCj0Mm5haLUBF3jMBKY");
+        public static MainBot bot = new MainBot();
     }
 }
