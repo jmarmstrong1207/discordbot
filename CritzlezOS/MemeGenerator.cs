@@ -137,6 +137,8 @@ namespace CritzlezOS
             return destImage;
         }
 
+        // This is a basic method to place two images on top of any meme template. Requires x,y coordinates for both images. (x,y) for 1st img, (xx,yy) for 2nd.
+        // The origin is on the top left. Y increases towards the bottom. X increases towards the right.
         public string Generate2ImageMeme
         (
             int resizex,        int resizey, 
@@ -152,6 +154,7 @@ namespace CritzlezOS
                 FirstImage = ResizeImage(FirstImage, resizex, resizey);
                 SecondImage = ResizeImage(SecondImage, resizexx, resizeyy);
 
+                // Places the origin of the images onto the given coordinates
                 memeG.DrawImage(FirstImage, whereToPlacex, whereToPlacey);
                 memeG.DrawImage(SecondImage, whereToPlacexx, whereToPlaceyy);
 
