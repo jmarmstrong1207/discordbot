@@ -65,7 +65,7 @@ namespace CritzlezOS
         {
             await Context.Message.DeleteAsync();
 
-            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/memeImages/sources/upgrade.jpg",
+            MemeGenerator upgrade = new MemeGenerator("upgrade.jpg",
                 Context, image, image2);
 
             string memeToSend = upgrade.Generate2ImageMeme(

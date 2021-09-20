@@ -53,8 +53,13 @@ namespace CritzlezOS
             await BotInherited.bot.MainAsync();
             IsBotOn = true;
 
-            Directory.CreateDirectory(System.IO.Path.Combine(Environment.CurrentDirectory, "songs"));
-            Directory.CreateDirectory(System.IO.Path.Combine(Environment.CurrentDirectory, "memeImages"));
+            // Initialize memeImages and memeImages/sources folders if it already does not exist
+
+            // Stores images given by users for meme generating
+            Directory.CreateDirectory("memeImages");
+
+            // Stores the meme templates
+            Directory.CreateDirectory("memeImages/templates");
         }
 
         public async void StopBotAsync()
