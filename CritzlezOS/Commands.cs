@@ -21,8 +21,6 @@ namespace CritzlezOS
             eb.AddField(",roll", "Roll from 0 to 100 or from roll #");
             eb.AddField(",upgrade *image-url image2-url*", "Lets you generate a meme with, using the *upgrade; " +
                 "go back* meme template (images respective)");
-            eb.AddField(",upgrade *image-url image2-url image3-url*", "Lets you generate a meme with, " +
-                "using the *upgrade; go back; I SAID GO BACK* meme template (images respective)");
             eb.WithColor(Discord.Color.Red);
 
             await Context.User.SendMessageAsync("", false, eb.Build());
@@ -62,59 +60,19 @@ namespace CritzlezOS
             }
         }
 
-        [Command("drake", RunMode = RunMode.Async)]
-        public async Task Meme(string image, string image2)
-        {
-            await Context.Message.DeleteAsync();
-
-            MemeGenerator drake = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/drake.jpg", Context.Channel.Id, Context.Guild, image, image2);
-            try
-            {
-                await Context.Channel.SendFileAsync(drake.Generate2ImageMeme(
-                               resizex: 318, resizey: 255,
-                               whereToPlacex: 322, whereToPlacey: 0,
-                               resizexx: 318, resizeyy: 255,
-                               whereToPlacexx: 322, whereToPlaceyy: 261
-                               ));
-            }
-            catch (Exception e)
-            {
-                await Context.Channel.SendMessageAsync(e.ToString());
-            }
-        }
-
         [Command("upgrade", RunMode = RunMode.Async)]
         public async Task Upgrade(string image, string image2)
         {
             await Context.Message.DeleteAsync();
 
-            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/upgrade.jpg",
-                Context.Channel.Id, Context.Guild, image, image2);
+            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/memeImages/sources/upgrade.jpg",
+                Context, image, image2);
 
             string memeToSend = upgrade.Generate2ImageMeme(
                 resizex: 299, resizey: 299,
                 whereToPlacex: 0, whereToPlacey: 0,
                 resizexx: 299, resizeyy: 300,
                 whereToPlacexx: 0, whereToPlaceyy: 300);
-
-            await Context.Channel.SendFileAsync(memeToSend);
-        }
-
-        [Command("upgrade2", RunMode = RunMode.Async)]
-        public async Task Upgrade2(string image, string image2, string image3)
-        {
-            await Context.Message.DeleteAsync();
-
-            MemeGenerator upgrade = new MemeGenerator(Environment.CurrentDirectory + "/meme-images/sources/upgrade2.jpg",
-                Context.Channel.Id, Context.Guild, image, image2, image3);
-
-            string memeToSend = upgrade.Generate3ImageMeme(
-                resizex: 242, resizey: 146,
-                whereToPlacex: 0, whereToPlacey: 0,
-                resizexx: 242, resizeyy: 163,
-                whereToPlacexx: 0, whereToPlaceyy: 147,
-                resizexxx: 242, resizeyyy: 165,
-                whereToPlacexxx: 0, whereToPlaceyyy: 309);
 
             await Context.Channel.SendFileAsync(memeToSend);
         }

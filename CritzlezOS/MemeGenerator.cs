@@ -1,4 +1,5 @@
-﻿using Discord.WebSocket;
+﻿using Discord.Commands;
+using Discord.WebSocket;
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -27,6 +28,7 @@ namespace CritzlezOS
         Image ThirdImage;
 
         private ulong ChannelId;
+        private ulong MessageId;
         private SocketGuild Guild;
 
         static MemeGenerator()
@@ -34,7 +36,7 @@ namespace CritzlezOS
             getImg = new WebClient();
         }
 
-        public MemeGenerator(string source, ulong channelId, SocketGuild guild, string image1 = null, string image2 = null, string image3 = null)
+        public MemeGenerator(string source, SocketCommandContext Context, string image1 = null, string image2 = null, string image3 = null)
         {
             Source = source;
             FirstImageURL = image1;
@@ -42,8 +44,9 @@ namespace CritzlezOS
             ThirdImageURL = image3;
 
             // These are used to name the images created by this generator for easier organization
-            ChannelId = channelId;
-            Guild = guild;
+            ChannelId = Context.Channel.Id;
+            MessageId = Context.Message.Id;
+            Guild = Context.Guild;
 
             for (int i = source.Length - 1; i >= 0; i--)
             {
@@ -54,13 +57,13 @@ namespace CritzlezOS
                 }
             }
 
-            if (source.Contains("http"))
+            if (source.StartsWith("http"))
             {
                 Stream sourceImageChecker;
                 Bitmap sourceSaveImg;
                 sourceImageChecker = getImg.OpenRead(source);
                 sourceSaveImg = new Bitmap(sourceImageChecker);
-                sourceSaveImg.Save(Environment.CurrentDirectory + "/memeImages/" + ChannelId + " " + SourceMemeName + ".jpg", ImageFormat.Jpeg);
+                sourceSaveImg.Save(Environment.CurrentDirectory + "/memeImages/" + ChannelId + " - " + MessageId + " " + SourceMemeName + ".jpg", ImageFormat.Jpeg);
                 Source = Environment.CurrentDirectory + "/memeImages/" + ChannelId + " " + SourceMemeName + ".jpg";
             }
 
@@ -162,39 +165,6 @@ namespace CritzlezOS
                 throw e;
             }
 
-        }
-
-        public string Generate3ImageMeme
-        (
-           int resizex,         int resizey,
-           int whereToPlacex,   int whereToPlacey,
-           int resizexx,        int resizeyy,
-           int whereToPlacexx,  int whereToPlaceyy,
-           int resizexxx,       int resizeyyy,
-           int whereToPlacexxx, int whereToPlaceyyy
-        )
-        {
-            try
-            {
-                Graphics memeG = Graphics.FromImage(meme);
-
-                FirstImage = ResizeImage(FirstImage, resizex, resizey);
-                SecondImage = ResizeImage(SecondImage, resizexx, resizeyy);
-                ThirdImage = ResizeImage(ThirdImage, resizexxx, resizeyyy);
-
-                memeG.DrawImage(FirstImage, whereToPlacex, whereToPlacey);
-                memeG.DrawImage(SecondImage, whereToPlacexx, whereToPlaceyy);
-                memeG.DrawImage(ThirdImage, whereToPlacexxx, whereToPlaceyyy);
-                Console.WriteLine(Environment.CurrentDirectory + "/memeImages/" + Guild + " - " + SourceMemeName);
-                meme.Save(Environment.CurrentDirectory + "/memeImages/" + Guild + " - " + SourceMemeName);
-
-                return Environment.CurrentDirectory + "/memeImages/" + Guild + " - " + SourceMemeName;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-                throw;
-            }
         }
     }
 }
