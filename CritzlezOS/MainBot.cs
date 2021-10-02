@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
 using Discord;
@@ -10,25 +11,22 @@ namespace CritzlezOS
 {
     public class MainBot
     {
-        public readonly string token;
+        public static readonly string token = System.IO.File.ReadAllText("token.txt");
 
-        public SocketCommandContext Context { get; set; }
-        public SocketUserMessage Message { get; set; }
-        public string ServerName { get; set; }
-        public string UserName { get; set; }
-        public ulong MessageID { get; set; }
-        public string LogMessage { get; set; }    
+        public static SocketCommandContext Context { get; set; }
+        public static SocketUserMessage Message { get; set; }
+        public static string ServerName { get; set; }
+        public static string UserName { get; set; }
+        public static ulong MessageID { get; set; }
+        public static string LogMessage { get; set; }    
 
-        private DiscordSocketClient _client;
-        private CommandService _commands;
-        private IServiceProvider _services;
+        private static DiscordSocketClient _client;
+        private static CommandService _commands;
+        private static IServiceProvider _services;
+        
+        public static bool IsBotOn { get; set; }
 
-        public MainBot()
-        {
-            token = System.IO.File.ReadAllText("token.txt");
-        }
-
-        private async Task HandleCommandAsync(SocketMessage messageParam)
+        private static async Task HandleCommandAsync(SocketMessage messageParam)
         {
             // Don't process the command if it was a System Message
             if (!(messageParam is SocketUserMessage message)) return;
@@ -64,7 +62,7 @@ namespace CritzlezOS
             if (!result.IsSuccess) await context.Channel.SendMessageAsync(result.ErrorReason);
         }
 
-        public async Task InstallCommandsAsync()
+        public static async Task InstallCommandsAsync()
         {
             // Hook the MessageReceived Event into our Command Handler
             _client.MessageReceived += HandleCommandAsync;
@@ -72,8 +70,23 @@ namespace CritzlezOS
             // Discover all of the commands in this assembly and load them.
             await _commands.AddModulesAsync(assembly: Assembly.GetEntryAssembly(), services: null);
         }
+        
+        public static async Task Main()
+        {
+            IsBotOn = true;
 
-        public async Task MainAsync()
+            // Initialize memeImages and memeImages/sources folders if it already does not exist
+
+            // Stores images given by users for meme generating
+            Directory.CreateDirectory("memeImages");
+
+            // Stores the meme templates
+            Directory.CreateDirectory("memeImages/templates");
+
+            await StartAsync();
+        }
+
+        public static async Task StartAsync()
         {
             _client = new DiscordSocketClient();
             _commands = new CommandService();
@@ -89,19 +102,16 @@ namespace CritzlezOS
             await _client.SetGameAsync("asynchronously");
 
             await InstallCommandsAsync();
+            //await Task.Delay(-1);
         }
 
-        public async Task StopAsync()
+        public static async Task StopAsync()
         {
             await _client.StopAsync();
 
+            IsBotOn = false;
             // Wait a little for the client to finish disconnecting before allowing the program to return
             await Task.Delay(500);
         }
-    }
-
-    public struct BotInherited
-    {
-        public static MainBot bot = new MainBot();
     }
 }
